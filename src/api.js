@@ -21,6 +21,6 @@ app.delete('/api/:id', user.delete)
 
 
 app.listen(port, ()=>{
-    console.log(`La app se está ejecutando en el puerto ${port}`)
+    console.log(`La APP se está ejecutando en el puerto ${port}`)
     console.log('Correlo en: http://localhost:3000/api')
 })
